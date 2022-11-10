@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        table{
+    background-color: cyan;
+  
+    
+    border: 1px solid #ddd;
+}
+th, td {
+    text-align: left;
+    padding: 16px;
+}
+    </style>
+</head>
+<body>
+ 
+
+
+<form action="" method="post">
+    <table>
+        <tr>
+            <td colspan="2"  > <b style="color:red ;">Đăng kí học viên</b></td>
+        </tr>
+        <tr>
+            <td>Họ và tên: </td>
+            <td><input type="text" name="ho_ten"></td>
+        </tr>
+        <tr>
+            <td>Ngày sinh: </td>
+            <td><input type="date" name="ngay_sinh"></td>
+        </tr>
+        <tr>
+            <td>Giới tính: </td>
+            <td>
+                <input type="radio" name="gioi_tinh" value="Nam">Nam
+                <input type="radio" name="gioi_tinh" value="Nữ">Nữ
+            </td>
+        </tr>
+        <tr>
+            <td>Địa chỉ: </td>
+            <td><input type="text" name="dia_chi"></td>
+        </tr>
+        <tr>
+            <td>Lớp: </td>
+            <td><input type="text" name="lop"></td>
+        </tr>
+        <tr>
+            <td>Email: </td>
+            <td><input type="email" name="email"></td>
+        </tr>
+        <tr>
+            <td>Số điện thoại: </td>
+            <td><input type="text" name="so_dien_thoai"></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" name="dang_ki" value="Đăng kí">
+                <input type="reset" name="nhap_lai" value="Nhập lại">
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
